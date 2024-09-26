@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    color: rgb(42, 223, 229);
+    font-family: papyrus;
+    text-align: center;
+    font-size: 2em;
+}
