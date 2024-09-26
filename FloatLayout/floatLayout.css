@@ -9,9 +9,24 @@ header{
     text-align: center;
     font-size: 2em;
 }
+/* This is the important part for making it a float layou */
 nav{
+    /* This kicks it to the left, lets the rest come up beside it. It's important to limit the width of the nav to make space for the rest */
     float:left;
     width: 120px;
     border: 5px outset lightgray;
     min-height: 360px;
+    margin: 5px;
+    padding: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
 }
