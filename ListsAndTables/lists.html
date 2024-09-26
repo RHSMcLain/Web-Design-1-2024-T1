@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Demo</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>Lists in HTML
+        <nav>
+            <a href="tables.html">tables</a>
+        </nav>
+
+    </header>
+  
+    <article>
+        <h1>General Lists</h1>
+        <p>Lists have an outer tag either ul or ol.  And each item in the list is wrapped in an li tag.</p>
+        <ul>
+            <li>
+                <a href="https://www.nba.com/blazers/" target="_blank">
+                    Portland Trailblazers
+                </a>
+            </li>
+            <li>Utah Jazz</li>
+            <li>Los Angeles Lakers</li>
+            <li>Seattle Supersonics (once and future)</li>
+        </ul>
+        <p>In list items, it is OK to have other elements. For instance, you can include links or images -- or even other lists (we'll go into that more later).</p>
+    </article>
+    <article>
+        <h1 class="noBullet">Ordered Lists</h1>
+        <p>Ordered lists start with &lt;ol&gt; tags, and give you a list with numbers (or some other sequencer depending on how you style it. It can be roman numerals, letters....</p>
+        <ol class="normal">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cranberries</li>
+            <li>Dates</li>
+            <li>Elephant Ears</li>
+        </ol>
+        <ol class="klhdg">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cranberries</li>
+            <li>Dates</li>
+            <li>Elephant Ears</li>
+        </ol>
+    </article>
+    <article>
+        <h1>Definition lists:</h1>
+        <p>Definition lists allow you to specify the word or phrase you're defining followed by the definition.</p>
+        <p>The structure is a &lt;dl&gt; tag. for each term you do a &lt;dt&gt; element with the term in it and a &lt;dd&gt; with the description or definition</p>
+        <h2>Example</h2>
+        <dl>
+            <dt>Block Element</dt>
+            <dd>An element that gets its own line on the page (line breaks before and after</dd>
+            <dt>Inline Element</dt>
+            <dd>An element that does not get line breaks-- it just acts like another word or letter.</dd>
+        </dl>
+    </article>
+</body>
+</html>
