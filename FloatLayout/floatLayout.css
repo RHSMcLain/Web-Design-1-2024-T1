@@ -3,11 +3,19 @@ body{
     padding: 0px;
 }
 header{
-    background-color: black;
+    background-color: rgb(223, 225, 119);
     color: rgb(42, 223, 229);
-    font-family: papyrus;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 2em;
+    text-shadow: 2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    0px 2px 0 black,
+    2px 0px 0 black,
+    0px -2px 0 black,
+    -2px 0px 0 black;
+
 }
 /* This is the important part for making it a float layou */
 nav{
