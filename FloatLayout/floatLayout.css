@@ -33,6 +33,7 @@ nav a{
     margin: 2px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
+    background-color: whitesmoke;
 }
 nav a:hover{
     background-color: black;
@@ -43,4 +44,10 @@ nav a{
 }
 nav a{
     display: block;
+}
+footer{
+    background-color: grey;
+    border: 2px solid black;
+    clear:both; 
+    /*Clear means it will get pushed down below a 'float' element.*/
 }
