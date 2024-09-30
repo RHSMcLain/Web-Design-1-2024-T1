@@ -1,0 +1,27 @@
+header{
+    background-color: navy;
+    font-family: pirulen, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 2px rgb(157, 158, 186);
+}
+body{
+    height: 4000px;
+}
+.red{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+}
+.blue{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    position:relative;
+    top: 410px;
+    left: 10px;
+}
+img{
+    width: 100px;
+}
