@@ -18,10 +18,26 @@ body{
     height: 400px;
     width: 400px;
     background-color: blue;
-    position:relative;
+    position:fixed;
     top: 410px;
     left: 10px;
 }
 img{
     width: 100px;
+}
+#maru2{
+    width: 150px;
+    position: sticky;
+    top: 100px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    position: sticky; 
+    top: 100px;
+    background-color: magenta;
+}
+nav{
+    position: sticky;
+    top: 0px;
 }

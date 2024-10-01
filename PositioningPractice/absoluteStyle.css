@@ -1,0 +1,35 @@
+header{
+    background-color: tan;
+    font-size: 2em;
+    text-align: center;
+}
+nav{
+    background-color: rgb(165, 114, 42);
+    color: white;
+}
+.outer1{
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+
+}
+
+.outer2{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    
+}
+
+.inner{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    
+}
+div{
+    color: yellow;
+}
+nav a{
+    color: white;
+}
