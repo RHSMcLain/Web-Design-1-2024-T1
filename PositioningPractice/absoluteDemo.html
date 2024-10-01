@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="absoluteStyle.css">
+    <script src="demo.js"></script>
 </head>
 <body>
     <header>Absolute Positioning</header>
-    <nav><a href="positionPractice.html">PositionDemo</a></nav>
-    <div class="outer1">outer 1
-        <div class="outer2">outer 2
-            <div class="inner">Inner</div>
+    <nav><a href="positionPractice.html">PositionDemo</a> | 
+        <label for="chkOuter1">Outer 1 Relative</label><input type="checkbox" id="chkOuter1" onclick="toggle('outer1')">
+    |
+    <label for="chkOuter2">Outer 2 Relative</label><input type="checkbox" id="chkOuter2" onclick="toggle('outer2')">
+    |
+    <label for="chkOuter2">Inner Absolute</label><input type="checkbox" id="chkOuter2" onclick="absolute()">
+    |
+        </nav>
+    <div id="outer1">outer 1
+        <div id="outer2">outer 2
+            <div id="inner">Inner</div>
         </div>
     </div>
 </body>
