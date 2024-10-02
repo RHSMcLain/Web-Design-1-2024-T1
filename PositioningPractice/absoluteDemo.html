@@ -6,6 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="absoluteStyle.css">
     <script src="demo.js"></script>
+    <script>
+        function go(){
+            var txt = document.getElementById("txtWhatever");
+            if (txt.value == "test"){
+                window.location.href="nextPage.html"
+            }
+            else{
+                alert("NOPE!");
+                txt.value = "";
+            }
+        }
+    </script>
 </head>
 <body>
     <header>Absolute Positioning</header>
@@ -16,6 +28,8 @@
     |
     <label for="chkOuter2">Inner Absolute</label><input type="checkbox" id="chkOuter2" onclick="absolute()">
     |
+    <input type="text" id="txtWhatever" placeholder="Whatever" />
+    <button onclick="go()" value="try it out">Try</button>"
         </nav>
     <div id="outer1">outer 1
         <div id="outer2">outer 2
@@ -24,5 +38,6 @@
             Text after the Inner Div
         </div>
     </div>
+
 </body>
 </html>
