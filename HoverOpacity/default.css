@@ -13,6 +13,7 @@ article{
     background-color: white;
     border-radius: 10px;
     padding: 0px 5px 2px 5px;
+    min-height: 180px;
 }
 article h1{
     text-align: center;
@@ -27,4 +28,15 @@ article img{
     box-shadow: 2px 2px 2px grey;
     border-radius: 5px;
 
+}
+
+/* styling specific to this demo 
+-- normally it is a bad idea to have multiple entries for the same selector.  I'm doing it to emphasize these pieces --
+*/
+article img{
+    opacity: 0.2;
+    transition: 0.3s;
+}
+article:hover img{  
+    opacity: 1;
 }
