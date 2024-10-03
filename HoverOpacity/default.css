@@ -1,3 +1,30 @@
 body{
     background-color: rgb(161, 194, 226);
 }
+header{
+    font-size: 2em;
+    color: brown;
+    background-color: yellow;
+    text-align: center;
+}
+article{
+    width: 85%;
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 5px 2px 5px;
+}
+article h1{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+article img{
+    width: 100px;
+    float: left;
+    margin: 5px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+
+}
