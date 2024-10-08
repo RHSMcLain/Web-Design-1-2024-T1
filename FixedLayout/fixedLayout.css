@@ -1,0 +1,59 @@
+header{
+    font-family: papyrus, cursive;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(151, 22, 48);
+    background-color: rgb(166, 207, 249);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 55px;
+    box-sizing: border-box;
+}
+nav{
+    top: 55px;
+    position: fixed;
+    left: 0px;
+    width: 100px;
+    background-color:rgb(166, 207, 249);
+    bottom: 30px;
+}
+nav a{
+    display: block;
+    margin: 3px 2px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color:rgb(166, 207, 249);
+    color: black;
+    text-decoration: none;
+
+}
+nav a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+main{
+    position: fixed;
+    top: 55px;
+    left: 100px;
+    bottom: 30px;
+    right: 0px;
+    background-color: yellow;
+    overflow-y: scroll;
+}
+main div{
+    height: 2000px;
+}
+footer{
+    background-color: rgb(166, 207, 249);
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    text-align: center;
+    height: 30px;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
