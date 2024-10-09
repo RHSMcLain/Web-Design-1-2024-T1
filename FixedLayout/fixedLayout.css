@@ -11,6 +11,8 @@ header{
     right: 0px;
     height: 55px;
     box-sizing: border-box;
+
+    border-bottom: 5px solid black;
 }
 nav{
     top: 55px;
