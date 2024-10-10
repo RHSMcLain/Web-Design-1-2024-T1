@@ -1,0 +1,23 @@
+div{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 5px;
+
+}
+#solidBackground{
+    background: rgb(255, 255, 12);
+}
+#imgBackground{
+    background: url("../images/IamMaruBookCover.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#gradientBackground{
+    background: linear-gradient(blue, red);
+    color: white;
+}
+#radialGradientBackground{
+    background: radial-gradient(blue, red);
+}
