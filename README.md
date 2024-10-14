@@ -10,3 +10,4 @@ This repository holds demos and notes from the Web Design 1 class from 2024-25 f
 | Positioning Practice | [Code](./PositioningPractice/positionPractice.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/PositioningPractice/positionPractice.html)
 | Hover and Opacity | [Code](./HoverOpacity/default.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/HoverOpacity/default.html)
 | Fixed Layout | [Code](./FixedLayout/fixedLayout.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/FixedLayout/fixedLayout.html)
+| Backgrounds | [Code](./Backgrounds/background.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Backgrounds/background.html)
