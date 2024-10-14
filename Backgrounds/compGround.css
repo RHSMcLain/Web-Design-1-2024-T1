@@ -1,0 +1,24 @@
+body{
+    background:radial-gradient(lightgray 80%,gray);
+    min-height: 4000px;
+    background-attachment: fixed;
+}
+main{
+    background-image: url("../images/IamMaruBookCover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: right;
+
+    width: 80%;
+    margin: 10px auto;
+    height: 800px;
+    overflow-y: scroll;
+}
+section{
+    height: 700px;
+    margin: 50px;
+    background: rgba(255, 155, 255, 0.4);
+    border: 1px solid brown;
+    
+}

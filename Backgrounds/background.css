@@ -7,17 +7,18 @@ div{
 }
 #solidBackground{
     background: rgb(255, 255, 12);
+    background-color: orange;
 }
 #imgBackground{
     background: url("../images/IamMaruBookCover.jpg");
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-position: right;
+    background-size:10%;
+    background-repeat:repeat-y;
 }
 #gradientBackground{
-    background: linear-gradient(blue, red);
+    background: linear-gradient(to left, blue  20%, black 60%,  red);
     color: white;
 }
 #radialGradientBackground{
-    background: radial-gradient(blue, red);
+    background: radial-gradient(blue 20%, black 60%,  red);
 }
