@@ -3,6 +3,21 @@ body{
     min-height: 4000px;
     background-attachment: fixed;
 }
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    background: black;
+}
+nav{
+    background: grey;
+}
+nav a{
+    color: white;
+    margin: 5px;
+    display: inline-block;
+}
 main{
     background-image: url("../images/IamMaruBookCover.jpg");
     background-repeat: no-repeat;
