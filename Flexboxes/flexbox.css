@@ -1,0 +1,27 @@
+header{
+    font-size: 2em;
+    padding: 5px 50px;
+    font-family: papyrus;
+    color: orange;
+    background: linear-gradient(to right, black 20%, grey);
+
+}
+section{
+    background-color: rgb(254, 200, 99);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#demoBox{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+#demoBox div{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 5px;
+}

@@ -2,6 +2,9 @@ body{
     background:radial-gradient(lightgray 80%,gray);
     min-height: 4000px;
     background-attachment: fixed;
+    scrollbar-width:thin;
+    scroll-snap-type:y mandatory;
+    overflow-y:scroll;
 }
 header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,18 +25,24 @@ main{
     background-image: url("../images/IamMaruBookCover.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
-    background-position: right;
-
+    background-position: center;
+    scrollbar-width:thin;
+    scrollbar-color: rgba(0,0,255,0.4) transparent;
     width: 80%;
     margin: 10px auto;
     height: 800px;
     overflow-y: scroll;
+    scroll-snap-type:y mandatory;
+    scroll-snap-align: top;
+    scroll-margin: 20px;
+
 }
 section{
-    height: 700px;
+    height: 80px;
     margin: 50px;
-    background: rgba(255, 155, 255, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     border: 1px solid brown;
+    border-radius: 25px;
+    scroll-snap-align: top;
     
 }
