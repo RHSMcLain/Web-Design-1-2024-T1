@@ -4,8 +4,15 @@ header{
     font-family: papyrus;
     color: orange;
     background: linear-gradient(to right, black 20%, grey);
+    display: flex;
+    align-items: center;
+   
 
 }
+header img{
+    height: 120px;
+}
+
 section{
     background-color: rgb(254, 200, 99);
     margin: 10px;
