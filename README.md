@@ -11,3 +11,6 @@ This repository holds demos and notes from the Web Design 1 class from 2024-25 f
 | Hover and Opacity | [Code](./HoverOpacity/default.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/HoverOpacity/default.html)
 | Fixed Layout | [Code](./FixedLayout/fixedLayout.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/FixedLayout/fixedLayout.html)
 | Backgrounds | [Code](./Backgrounds/bacgkround.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Backgrounds/bacgkround.html)
+| Fonts and Unicode Characters | [Code](./Fonts/fonts.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Fonts/fonts.html)
+| Flexboxes | [Code](./Flexboxes/flexbox.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Flexboxes/flexbox.html)
+

@@ -13,10 +13,15 @@ section{
     padding: 10px;
     
 }
-#demoBox{
+#demoBox{ /* tthis is our flexbox container */
     background-color: white;
     margin: 10px;
     padding: 10px;
+    max-height: 300px;
+    /* The important settings are next */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; /*determine how white space is handled left/right */
 }
 #demoBox div{
     width: 80px;
@@ -24,4 +29,25 @@ section{
     background-color: blue;
     margin: 5px;
     border-radius: 5px;
+    min-height: 45px;
+    /* flex-related properties are next */
+    flex: 1; /*allow the box to change size */
+    min-width: 80px; /* this makes it so the width won't go beneath this value. Notice the 'width' property gets ignored when you have flex defined. */
+    max-width: 120px;
+    order: 1;
+}
+#demoBox div.two{
+    flex: 2;
+    background-color: yellow;
+    order: 0;
+}
+img{
+    height: 200px;
+}
+#centerPicture{
+    background: tan;
+    height: 600px;
+    display: flex;
+    align-items: center; /* aligns vertically */
+    justify-content: center; /*horizontally */
 }
