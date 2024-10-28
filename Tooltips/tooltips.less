@@ -1,0 +1,83 @@
+@brightColor: yellow;
+@sansFont: papyrus, sans-serif;
+@gradient: radial-gradient(green, blue);
+header{
+    font-size: 2em;
+    color: @brightColor;
+    background: @gradient;
+    text-align: center;
+    font-family: @sansFont;
+}
+.uptriangle{
+    margin: 20px;
+    width: 0;
+    height: 0;
+    /* border-top: 10px solid red; */
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid green;
+    border-left: 10px solid transparent;
+
+}
+.downtriangle{
+    margin: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid red;
+    border-right: 20px solid transparent;
+    /* border-bottom: 10px solid green; */
+    border-left: 20px solid transparent;
+
+}
+.lefttriangle{
+    margin: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 30px solid orange;
+    border-bottom: 10px solid transparent;
+    /* border-left: 10px solid transparent; */
+
+}
+.righttriangle{
+    margin: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    /* border-right: 30px solid orange; */
+    border-bottom: 10px solid transparent;
+    border-left: 3px solid blue;
+
+}
+.tooltip{
+    position: relative;
+}
+.tooltip:hover::before{
+    /* --- Key styling parts --- */
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    width: 80px;
+    text-align: center;
+    /* Styling for looks */
+    text-decoration: none;
+    color: @brightColor;
+    background: @gradient;
+    font-size: 0.8em;
+    border-radius: 10px;
+    padding: 2px; 
+    opacity: 0.8;
+}
+.tooltip:hover::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid darkgrey;
+    border-right: 7px solid transparent;
+    /* border-bottom: 10px solid green; */
+    border-left: 7px solid transparent;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+
+}
