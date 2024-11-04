@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'nav main main main main'
+    'nav main main main main'
+    'nav main main main main'
+    'nav main main main main'
+    'footer footer footer footer logoSquare';
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    min-height: 100vh;
+
+}
+header{
+    grid-area: header;
+    background-color: red;
+}
+nav{
+    grid-area: nav;
+    background-color: orange;
+}
+main{
+    grid-area: main;
+    background-color: yellow;
+}
+footer{
+    grid-area: footer;
+    background-color: blue;
+}
+.logo{
+    grid-area: logoSquare;
+    background-color: purple;
+}
+
