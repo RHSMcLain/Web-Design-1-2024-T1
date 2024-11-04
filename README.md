@@ -14,5 +14,5 @@ This repository holds demos and notes from the Web Design 1 class from 2024-25 f
 | Fonts and Unicode Characters | [Code](./Fonts/fonts.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Fonts/fonts.html)
 | Flexboxes | [Code](./Flexboxes/flexbox.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/Flexboxes/flexbox.html)
 | Tooltip | [Code](./Tooltips/tooltips.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/GridLayout/gridLayout.html)
-| Grid Layout | [Code](./Tooltips/tooltips.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/GridLayout/gridLayout.html)
+| Grid Layout | [Code](./GridLayout/gridLayout.html) | [View Page](https://rhsmclain.github.io/Web-Design-1-2024-T1/GridLayout/gridLayout.html)
 
