@@ -9,10 +9,14 @@ header{
 
 }
 nav{
-    background-color: black;
+    background: black;
     color: white;
 }
 nav a{
     color: white;
     text-decoration: none;
+}
+nav > ul > li{
+    display: inline-block;
+    position: relative;
 }
