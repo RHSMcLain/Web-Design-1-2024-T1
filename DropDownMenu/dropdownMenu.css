@@ -13,10 +13,43 @@ nav{
     color: white;
 }
 nav a{
-    color: white;
+    color: black;
     text-decoration: none;
+}
+nav ul{
+    list-style: none;
 }
 nav > ul > li{
     display: inline-block;
     position: relative;
+    color: orange;
+    
+}
+nav > ul > li > a{
+    color: orange;
+    text-shadow: 2px 2px 2px chartreuse;
+    display: block;
+}
+nav ul ul li{
+    padding: 5px 2px;
+}
+nav li:hover{
+    color: black;
+    background-color: orange;
+}
+nav > ul > li > ul{
+    position: absolute;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    top: 10px;
+
+}
+nav > ul > li:hover > ul{
+    opacity: 1;
+    pointer-events: all;
+    top: 18px;
 }

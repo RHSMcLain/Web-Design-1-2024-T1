@@ -1,0 +1,13 @@
+nav + a + a{ /* a after a after nav */
+    color: firebrick;
+}
+.check + img{ 
+    border: 2px solid black;
+}
+.check:checked + img{
+    border: 2px solid magenta;
+}
+.check{
+    position: fixed;
+    left: -1000px;
+}
